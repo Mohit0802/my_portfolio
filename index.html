@@ -340,20 +340,21 @@
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I'd love to hear from you!
         If you have any questions, comments or feedback, please use the form below.</p>
 
-        <form action="" class="max-w-2xl mx-auto">
+        <form method="POST" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto">
+            <input type="hidden" name="access_key" value="2aacb1e1-9a3d-4d31-845d-32258be9429b">
             <div class="grid grid-cols-auto gap-6 mt-10 mb-8">
                 <input type="text" placeholder="Enter your name" class="flex-1 p-3
                 outline-none border-[0.5px] border-gray-400 rounded-md bg-white
-                dark:bg-darkHover/30 dark:border-white/90">
+                dark:bg-darkHover/30 dark:border-white/90" required name="name">
 
                 <input type="email" placeholder="Enter your email" class="flex-1 p-3
                 outline-none border-[0.5px] border-gray-400 rounded-md bg-white
-                dark:bg-darkHover/30 dark:border-white/90">
+                dark:bg-darkHover/30 dark:border-white/90" required name="email">
             </div>
 
             <textarea rows="6" placeholder="Enter your message" class="w-full p-4
             outline-none border-[0.5px] border-gray-400 rounded-md bg-white
-            mb-6 dark:bg-darkHover/30 dark:border-white/90"></textarea>
+            mb-6 dark:bg-darkHover/30 dark:border-white/90" required name="message"></textarea>
 
             <button class="py-3 px-8 w-max flex items-center justify-between
             gap-2 bg-black/80 text-white rounded-full mx-auto
@@ -386,11 +387,11 @@
                         Instagram</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/ig_mohit08?igsh=MXdqOHEwcjR5OTZmaw==">
+                    <a href="https://github.com/Mohit0802">
                         Github</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/ig_mohit08?igsh=MXdqOHEwcjR5OTZmaw==">
+                    <a href="www.linkedin.com/in/mohit-tahiliani">
                         LinkedIn</a>
                 </li>
                 <!-- <li>
